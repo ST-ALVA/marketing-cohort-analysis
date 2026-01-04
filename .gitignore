@@ -1,0 +1,40 @@
+# =========================
+# Python / Virtual Envs
+# =========================
+Cohort_Analysis/
+venv/
+.env/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter / Notebooks
+# =========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Optional: notebook autosave & runtime files
+~$*.ipynb
+*.nbconvert.ipynb
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
