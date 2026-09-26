@@ -9,16 +9,16 @@ This project evaluates the performance and efficiency of marketing acquisition c
 
 Results show that purchase decisions are highly front-loaded, with most users converting shortly after their first interaction, while long-term retention remains limited. Customer value is strongly concentrated: a small segment of users accounts for a disproportionate share of total revenue, highlighting the importance of acquisition quality over volume.
 
-Marketing performance varies significantly by channel. Acquisition sources 1 and 2 clearly outperform all others, combining low CAC, high LTV, and exceptional ROMI. Source 5 delivers consistent but moderate returns, while source 9 shows promising scalability despite its smaller current volume. In contrast, sources 3, 4, and 10 generate weak returns relative to spend and reduce overall marketing efficiency.
+Marketing performance varies significantly by channel, and overall the budget did not pay for itself: **$329K in spend generated ~$252K in revenue (total ROMI ≈ −23%)**. Only sources 1 and 2 deliver a clear positive return: source 1 (ROMI +46%) combines low CAC with high LTV, while source 2 brings the most valuable customers (LTV $13.48) at a higher acquisition cost (ROMI +11%). Sources 5 and 9 roughly break even (+3%). Sources 3, 4, and 10 lose money, and source 3 alone absorbs 43% of the budget at a ROMI of −63%.
 
-Based on these findings, the recommended strategy is to concentrate investment on proven high-ROI channels, selectively scale promising sources, and actively reduce or restructure spend on underperforming channels to maximize sustainable revenue growth.
+Based on these findings, the recommended strategy is to concentrate investment on sources 1 and 2, test break-even sources carefully before scaling them, and cut or restructure spend on money-losing channels, starting with source 3.
 
 ---
 
 ## 📌 Project Context
 
 - **Company:** Showz (event ticketing platform)
-- **Timeframe:** January 2017 – December 2018
+- **Timeframe:** June 2017 – May 2018
 - **Data Sources:**
   - Website visit logs
   - Purchase and revenue records
@@ -63,17 +63,25 @@ This analysis was structured around four key business questions:
 
 ### Revenue & Customer Value
 - Most users generate **low lifetime revenue**, while a small group of high-value users drives a large share of total income.
-- Desktop users account for the majority of orders, while mobile users show slightly higher average order values.
+- Desktop users account for the majority of orders (≈81%), with higher average order value ($5.16 vs $4.36) and higher LTV ($7.23 vs $5.72) than touch users.
 - Purchase frequency remains low overall, with most users completing a single transaction.
 
 ### Marketing Performance
-- **Sources 1 and 2** are the strongest performers:
-  - Lowest CAC
-  - Highest LTV
-  - Exceptional ROMI
-- **Source 5** provides stable, mid-level performance and remains viable.
-- **Source 9** shows strong efficiency signals and represents a scalable opportunity.
-- **Sources 3, 4, and 10** underperform, combining high spend with weak returns.
+| Source | Spend | CAC | LTV | ROMI |
+|---|---|---|---|---|
+| 1 | $20.8K | $7.01 | $10.22 | **+46%** |
+| 2 | $42.8K | $12.17 | $13.48 | **+11%** |
+| 5 | $51.8K | $7.56 | $7.79 | +3% |
+| 9 | $5.5K | $5.09 | $5.26 | +3% |
+| 4 | $61.1K | $6.05 | $5.50 | −9% |
+| 10 | $5.8K | $4.45 | $3.56 | −20% |
+| 3 | $141.3K | $13.82 | $5.18 | **−63%** |
+
+- **Source 1** is the most efficient channel: low CAC, high LTV, and the highest ROMI.
+- **Source 2** brings the highest-value customers; its CAC is high, but LTV still covers it.
+- **Sources 5 and 9** roughly break even. Source 9 is cheap to acquire but converts more slowly and has a low average order value.
+- **Sources 4 and 10** have low CAC, but their customers are worth even less, so they lose money.
+- **Source 3** receives 43% of the total budget and has the highest CAC and one of the lowest LTVs, making it the largest source of losses.
 
 ---
 
@@ -81,10 +89,10 @@ This analysis was structured around four key business questions:
 
 Based on a combined evaluation of **CAC, LTV, ROMI, and conversion behavior**:
 
-- **Prioritize investment in Sources 1 and 2**, which consistently deliver high-value users at low acquisition cost.
-- **Maintain and optimize Source 5**, focusing on incremental efficiency improvements.
-- **Actively scale Source 9**, leveraging its strong efficiency indicators and growth potential.
-- **Reduce or restructure spend on Sources 3, 4, and 10**, as they dilute overall marketing ROI.
+- **Prioritize investment in Sources 1 and 2**, the only channels with a clear positive return.
+- **Maintain and optimize Source 5**, which breaks even at significant volume; small gains in conversion or order value would make it profitable.
+- **Test Source 9 with a small, controlled budget increase** before scaling: acquisition is cheap, but it converts slowly and order values are low.
+- **Cut or restructure spend on Sources 3, 4, and 10**, starting with source 3, which drives most of the overall loss. Validate the cut with a controlled reduction (e.g., one region or period first) to confirm revenue doesn't drop proportionally.
 
 This approach shifts marketing strategy away from volume-driven acquisition toward **sustainable, value-based growth**.
 
